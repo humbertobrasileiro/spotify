@@ -1,0 +1,70 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1705950695900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1705950973326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n       </div>\r\n     </nav>\r\n \r\n     <div class=\"library\">\r\n+      \r\n       <span class=\"fa fa-book\"></span>\r\n       <span>Sua biblioteca</span>\r\n       <div class=\"playlist\">\r\n         <h3>Crie sua primeira playlist</h3>\r\n"
+                },
+                {
+                    "date": 1705951367678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n       </div>\r\n     </nav>\r\n \r\n     <div class=\"library\">\r\n-      \r\n+\r\n       <span class=\"fa fa-book\"></span>\r\n       <span>Sua biblioteca</span>\r\n       <div class=\"playlist\">\r\n         <h3>Crie sua primeira playlist</h3>\r\n@@ -47,9 +47,9 @@\n         <button>Criar playlist</button>\r\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n-        <h3>Que tal seguir um podcast novo?</h3>\r\n+        <button>Que tal seguir um podcast novo?</button>\r\n         <span>Avisaremos você sobre novos episódios.</span>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n"
+                },
+                {
+                    "date": 1705951433532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,17 +39,17 @@\n \r\n     <div class=\"library\">\r\n \r\n       <span class=\"fa fa-book\"></span>\r\n-      <span>Sua biblioteca</span>\r\n+      <button>Sua biblioteca</button>\r\n       <div class=\"playlist\">\r\n         <h3>Crie sua primeira playlist</h3>\r\n         <span>É fácil, vamos te ajudar.</span>\r\n         <button>Criar playlist</button>\r\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n-        <button>Que tal seguir um podcast novo?</button>\r\n+        <span>Que tal seguir um podcast novo?</span>\r\n         <span>Avisaremos você sobre novos episódios.</span>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n"
+                },
+                {
+                    "date": 1705951539216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,19 +38,20 @@\n     </nav>\r\n \r\n     <div class=\"library\">\r\n \r\n-      <span class=\"fa fa-book\"></span>\r\n-      <button>Sua biblioteca</button>\r\n+      <button>\r\n+        <span class=\"fa fa-book\"></span> Sua biblioteca\r\n+      </button>\r\n       <div class=\"playlist\">\r\n         <h3>Crie sua primeira playlist</h3>\r\n         <span>É fácil, vamos te ajudar.</span>\r\n         <button>Criar playlist</button>\r\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n         <span>Que tal seguir um podcast novo?</span>\r\n-        <span>Avisaremos você sobre novos episódios.</span>\r\n+        <h2>Avisaremos você sobre novos episódios.</h2>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <div class=\"cookies\">\r\n"
+                },
+                {
+                    "date": 1705951566445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n         <span>Que tal seguir um podcast novo?</span>\r\n-        <h2>Avisaremos você sobre novos episódios.</h2>\r\n+        <h4>Avisaremos você sobre novos episódios.</h4>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <div class=\"cookies\">\r\n"
+                },
+                {
+                    "date": 1705951581728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n         <span>Que tal seguir um podcast novo?</span>\r\n-        <h4>Avisaremos você sobre novos episódios.</h4>\r\n+        <h5>Avisaremos você sobre novos episódios.</h5>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <div class=\"cookies\">\r\n"
+                },
+                {
+                    "date": 1705951604839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,10 @@\n       <button>\r\n         <span class=\"fa fa-book\"></span> Sua biblioteca\r\n       </button>\r\n       <div class=\"playlist\">\r\n-        <h3>Crie sua primeira playlist</h3>\r\n-        <span>É fácil, vamos te ajudar.</span>\r\n+        <span>Crie sua primeira playlist</span>\r\n+        <h4>É fácil, vamos te ajudar.</h4>\r\n         <button>Criar playlist</button>\r\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n"
+                },
+                {
+                    "date": 1705951968290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       </div>\r\n \r\n       <div class=\"podcast\">\r\n         <span>Que tal seguir um podcast novo?</span>\r\n-        <h5>Avisaremos você sobre novos episódios.</h5>\r\n+        <h4>Avisaremos você sobre novos episódios.</h4>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <div class=\"cookies\">\r\n"
+                },
+                {
+                    "date": 1705953989641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,13 +53,13 @@\n         <h4>Avisaremos você sobre novos episódios.</h4>\r\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n-      <div class=\"cookies\">\r\n+      <footer class=\"cookies\">\r\n         <span class=\"fa fa-globe\"></span>\r\n         <span>Cookies</span>\r\n         <button>Português do Brasil</button>\r\n-      </div>\r\n+      </footer>\r\n \r\n     </div>\r\n   </div>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1705954216645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,11 +54,12 @@\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <footer class=\"cookies\">\r\n-        <span class=\"fa fa-globe\"></span>\r\n         <span>Cookies</span>\r\n-        <button>Português do Brasil</button>\r\n+        <button>\r\n+          <span class=\"fa fa-globe\"></span> Português do Brasil\r\n+        </button>\r\n       </footer>\r\n \r\n     </div>\r\n   </div>\r\n"
+                },
+                {
+                    "date": 1705954373426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n         <button>Explore podcasts</button>\r\n       </div>\r\n \r\n       <footer class=\"cookies\">\r\n-        <span>Cookies</span>\r\n+        <h3>Cookies</h3>\r\n         <button>\r\n           <span class=\"fa fa-globe\"></span> Português do Brasil\r\n         </button>\r\n       </footer>\r\n"
+                },
+                {
+                    "date": 1705954412031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n       <footer class=\"cookies\">\r\n         <h3>Cookies</h3>\r\n         <button>\r\n-          <span class=\"fa fa-globe\"></span> Português do Brasil\r\n+          <span class=\"fa fa-globe\">Português do Brasil</span> \r\n         </button>\r\n       </footer>\r\n \r\n     </div>\r\n"
+                },
+                {
+                    "date": 1705954417503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n       <footer class=\"cookies\">\r\n         <h3>Cookies</h3>\r\n         <button>\r\n-          <span class=\"fa fa-globe\">Português do Brasil</span> \r\n+          <span class=\"fa fa-globe\"> Português do Brasil</span> \r\n         </button>\r\n       </footer>\r\n \r\n     </div>\r\n"
+                }
+            ],
+            "date": 1705950695900,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"pt-BR\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Spotify - Imersão</title>\r\n  <link rel=\"stylesheet\" href=\"reset.css\">\r\n  <link rel=\"stylesheet\" href=\"styles.css\">\r\n  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.4/css/solid.css\" integrity=\"sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE\" crossorigin=\"anonymous\" />\r\n  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css\" integrity=\"sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7\" crossorigin=\"anonymous\" />\r\n</head>\r\n\r\n<body>\r\n  <div class=\"sidebar\">\r\n    <nav class=\"sidebar_navigation\">\r\n      <div class=\"logo\">\r\n        <a href=\"\">\r\n          <img src=\"./assets/icons/logo-spotify.png\" alt=\"logo do spotify\">\r\n        </a>\r\n      </div>\r\n      <div class=\"menu\">\r\n        <ul>\r\n          <li>\r\n            <a href=\"\">\r\n              <span class=\"fa fa-home\"></span>\r\n              <span>Início</span>\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a href=\"\">\r\n              <span class=\"fa fa-search\"></span>\r\n              <span>Buscar</span>\r\n            </a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    </nav>\r\n\r\n    <div class=\"library\">\r\n      <span class=\"fa fa-book\"></span>\r\n      <span>Sua biblioteca</span>\r\n      <div class=\"playlist\">\r\n        <h3>Crie sua primeira playlist</h3>\r\n        <span>É fácil, vamos te ajudar.</span>\r\n        <button>Criar playlist</button>\r\n      </div>\r\n\r\n      <div class=\"podcast\">\r\n        <h3>Que tal seguir um podcast novo?</h3>\r\n        <span>Avisaremos você sobre novos episódios.</span>\r\n        <button>Explore podcasts</button>\r\n      </div>\r\n\r\n      <div class=\"cookies\">\r\n        <span class=\"fa fa-globe\"></span>\r\n        <span>Cookies</span>\r\n        <button>Português do Brasil</button>\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n</body>\r\n\r\n</html>"
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 38,
+            "patches": [
+                {
+                    "date": 1705950724515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1705950783762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,36 +52,36 @@\n   font-weight: 600;\r\n   font-size: 14px;\r\n }\r\n \r\n-.sidebar .biblioteca {\r\n+.sidebar .library {\r\n   padding-bottom: 10px;\r\n }\r\n \r\n-.sidebar .biblioteca h2 {\r\n+.sidebar .library h2 {\r\n   margin: 10px 0;\r\n   padding-left: 16px;\r\n }\r\n \r\n-.playlist {\r\n+.library .playlist {\r\n   margin: 10px 10px 0 0;\r\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n   color: #fff;\r\n }\r\n \r\n-.playlist h3 {\r\n+.library .playlist h3 {\r\n   padding-bottom: 10px;\r\n   font-size: 12px;\r\n }\r\n \r\n-.playlist span {\r\n+.library .playlist span {\r\n   font-size: 10px;\r\n   padding-bottom: 20px;\r\n }\r\n \r\n-.playlist span, .cookies span {\r\n+.library .playlist span, .cookies span {\r\n   display: block;\r\n }\r\n \r\n .playlist button {\r\n"
+                },
+                {
+                    "date": 1705950812908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   margin: 10px 0;\r\n   padding-left: 16px;\r\n }\r\n \r\n-.library .playlist {\r\n+.playlist {\r\n   margin: 10px 10px 0 0;\r\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n"
+                },
+                {
+                    "date": 1705950827341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n   border-radius: 8px;\r\n   color: #fff;\r\n }\r\n \r\n-.library .playlist h3 {\r\n+.playlist h3 {\r\n   padding-bottom: 10px;\r\n   font-size: 12px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1705950840647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,14 +74,14 @@\n   padding-bottom: 10px;\r\n   font-size: 12px;\r\n }\r\n \r\n-.library .playlist span {\r\n+.playlist span {\r\n   font-size: 10px;\r\n   padding-bottom: 20px;\r\n }\r\n \r\n-.library .playlist span, .cookies span {\r\n+.playlist span, .cookies span {\r\n   display: block;\r\n }\r\n \r\n .playlist button {\r\n"
+                },
+                {
+                    "date": 1705950876464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   font-size: 14px;\r\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n-.sidebar .library {\r\n+.library {\r\n   margin: 5px 0;\r\n   font-weight: 600;\r\n   font-size: 14px;\r\n }\r\n@@ -101,9 +101,8 @@\n   border-radius: 8px;\r\n   color: #fff;\r\n }\r\n \r\n-\r\n .podcast button {\r\n   border-radius: 15px;\r\n   border: 0;\r\n   padding: 4px 8px;\r\n"
+                },
+                {
+                    "date": 1705950901449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,11 +50,8 @@\n .library {\r\n   margin: 5px 0;\r\n   font-weight: 600;\r\n   font-size: 14px;\r\n-}\r\n-\r\n-.sidebar .library {\r\n   padding-bottom: 10px;\r\n }\r\n \r\n .sidebar .library h2 {\r\n"
+                },
+                {
+                    "date": 1705950914896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n   font-size: 14px;\r\n   padding-bottom: 10px;\r\n }\r\n \r\n-.sidebar .library h2 {\r\n+.library h2 {\r\n   margin: 10px 0;\r\n   padding-left: 16px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1705950997142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   padding: 12px;\r\n   width: 300px;\r\n }\r\n \r\n-.sidebar_navigation, .biblioteca {\r\n+.sidebar_navigation, .library {\r\n   background-color: #121212;\r\n   border-radius: 8px;\r\n   padding: 16px 0 0 16px;\r\n   color: #b3b3b3;\r\n"
+                },
+                {
+                    "date": 1705951044708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n .library {\r\n-  margin: 5px 0;\r\n+  margin: 10px 0;\r\n   font-weight: 600;\r\n   font-size: 14px;\r\n   padding-bottom: 10px;\r\n }\r\n"
+                },
+                {
+                    "date": 1705951074812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n .library {\r\n-  margin: 10px 0;\r\n+  margin-top: 10px;\r\n   font-weight: 600;\r\n   font-size: 14px;\r\n   padding-bottom: 10px;\r\n }\r\n"
+                },
+                {
+                    "date": 1705951245255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n }\r\n \r\n .playlist h3 {\r\n   padding-bottom: 10px;\r\n-  font-size: 12px;\r\n+  font-size: 16px;\r\n }\r\n \r\n .playlist span {\r\n   font-size: 10px;\r\n"
+                },
+                {
+                    "date": 1705951491083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,15 +66,10 @@\n   border-radius: 8px;\r\n   color: #fff;\r\n }\r\n \r\n-.playlist h3 {\r\n-  padding-bottom: 10px;\r\n+.playlist span {\r\n   font-size: 16px;\r\n-}\r\n-\r\n-.playlist span {\r\n-  font-size: 10px;\r\n   padding-bottom: 20px;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n"
+                },
+                {
+                    "date": 1705951730350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,11 +68,14 @@\n }\r\n \r\n .playlist span {\r\n   font-size: 16px;\r\n-  padding-bottom: 20px;\r\n }\r\n \r\n+.playlist h4 {\r\n+  color: red;\r\n+}\r\n+\r\n .playlist span, .cookies span {\r\n   display: block;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1705951760777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,9 @@\n   font-size: 16px;\r\n }\r\n \r\n .playlist h4 {\r\n+  margin-top: 5px;\r\n   color: red;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n"
+                },
+                {
+                    "date": 1705951786204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n   font-size: 16px;\r\n }\r\n \r\n .playlist h4 {\r\n-  margin-top: 5px;\r\n+  padding-top: 5px;\r\n   color: red;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n"
+                },
+                {
+                    "date": 1705951793951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n   font-size: 16px;\r\n }\r\n \r\n .playlist h4 {\r\n-  padding-top: 5px;\r\n+  padding-top: 15px;\r\n   color: red;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n"
+                },
+                {
+                    "date": 1705951814417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,8 @@\n }\r\n \r\n .playlist h4 {\r\n   padding-top: 15px;\r\n-  color: red;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n   display: block;\r\n"
+                },
+                {
+                    "date": 1705951845271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n \r\n .playlist button {\r\n   border-radius: 15px;\r\n   border: 0;\r\n-  padding: 4px 8px;\r\n+  padding: 14px 8px;\r\n   cursor: pointer;\r\n   color: #121212;\r\n   font-weight: 600;\r\n   font-size: 12px;\r\n"
+                },
+                {
+                    "date": 1705951881219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n   font-size: 16px;\r\n }\r\n \r\n .playlist h4 {\r\n-  padding-top: 15px;\r\n+  padding: 15px 0 15px 0;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n   display: block;\r\n@@ -81,9 +81,9 @@\n \r\n .playlist button {\r\n   border-radius: 15px;\r\n   border: 0;\r\n-  padding: 14px 8px;\r\n+  padding: 4px 8px;\r\n   cursor: pointer;\r\n   color: #121212;\r\n   font-weight: 600;\r\n   font-size: 12px;\r\n"
+                },
+                {
+                    "date": 1705951919607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n   font-size: 16px;\r\n }\r\n \r\n .playlist h4 {\r\n-  padding: 15px 0 15px 0;\r\n+  padding: 15px 0 20px 0;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n   display: block;\r\n"
+                },
+                {
+                    "date": 1705952033870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n .playlist span {\r\n   font-size: 16px;\r\n }\r\n \r\n-.playlist h4 {\r\n+.playlist h4, .podcast h4 {\r\n   padding: 15px 0 20px 0;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n"
+                },
+                {
+                    "date": 1705952085643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   top: 0;\r\n   left: 0;\r\n   bottom: 0;\r\n   padding: 12px;\r\n-  width: 300px;\r\n+  width: 420px;\r\n }\r\n \r\n .sidebar_navigation, .library {\r\n   background-color: #121212;\r\n"
+                },
+                {
+                    "date": 1705952198806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n }\r\n \r\n .playlist h4, .podcast h4 {\r\n   padding: 15px 0 20px 0;\r\n+  font-size: 14px;\r\n }\r\n \r\n .playlist span, .cookies span {\r\n   display: block;\r\n"
+                },
+                {
+                    "date": 1705953267113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,16 +10,24 @@\n   padding: 12px;\r\n   width: 420px;\r\n }\r\n \r\n-.sidebar_navigation, .library {\r\n+.sidebar_navigation {\r\n   background-color: #121212;\r\n   border-radius: 8px;\r\n   padding: 16px 0 0 16px;\r\n   color: #b3b3b3;\r\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n+.library {\r\n+  background-color: #121212;\r\n+  border-radius: 8px;\r\n+  padding: 16px 0 0 16px;\r\n+  color: #b3b3b3;\r\n+  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts,sans-serif), sans-serif;\r\n+}\r\n+\r\n .sidebar_navigation .logo {\r\n   background: #121212;\r\n   display: flex;\r\n   border-radius: 8px;\r\n"
+                },
+                {
+                    "date": 1705953466356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n   color: #fff;\r\n+  overflow-y: scroll;\r\n }\r\n \r\n .playlist span {\r\n   font-size: 16px;\r\n@@ -103,8 +104,9 @@\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n   color: #fff;\r\n+  overflow-y: scroll;\r\n }\r\n \r\n .podcast button {\r\n   border-radius: 15px;\r\n"
+                },
+                {
+                    "date": 1705953540049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n   color: #fff;\r\n-  overflow-y: scroll;\r\n+  overflow-y: auto;\r\n }\r\n \r\n .playlist span {\r\n   font-size: 16px;\r\n@@ -104,9 +104,9 @@\n   background-color: #242424;\r\n   padding: 16px 0 16px 16px;\r\n   border-radius: 8px;\r\n   color: #fff;\r\n-  overflow-y: scroll;\r\n+  overflow-y: auto;\r\n }\r\n \r\n .podcast button {\r\n   border-radius: 15px;\r\n"
+                },
+                {
+                    "date": 1705953676978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   left: 0;\r\n   bottom: 0;\r\n   padding: 12px;\r\n   width: 420px;\r\n+  min-height: 100%;\r\n }\r\n \r\n .sidebar_navigation {\r\n   background-color: #121212;\r\n"
+                },
+                {
+                    "date": 1705953701152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   left: 0;\r\n   bottom: 0;\r\n   padding: 12px;\r\n   width: 420px;\r\n-  min-height: 100%;\r\n+  height: 100%;\r\n }\r\n \r\n .sidebar_navigation {\r\n   background-color: #121212;\r\n"
+                },
+                {
+                    "date": 1705953777970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   left: 0;\r\n   bottom: 0;\r\n   padding: 12px;\r\n   width: 420px;\r\n-  height: 100%;\r\n+  min-height: 100%;\r\n }\r\n \r\n .sidebar_navigation {\r\n   background-color: #121212;\r\n"
+                },
+                {
+                    "date": 1705953891595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n .library {\r\n+  min-height: 100%;\r\n   background-color: #121212;\r\n   border-radius: 8px;\r\n   padding: 16px 0 0 16px;\r\n   color: #b3b3b3;\r\n"
+                },
+                {
+                    "date": 1705954131158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,8 +119,13 @@\n   font-weight: 600;\r\n   font-size: 12px;\r\n }\r\n \r\n+footer {\r\n+  position: absolute;\r\n+  bottom: 0;\r\n+}\r\n+\r\n .cookies span {\r\n   font-size: 8px;\r\n   padding: 20px 0;\r\n }\r\n"
+                },
+                {
+                    "date": 1705954150320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\r\n \r\n footer {\r\n   position: absolute;\r\n-  bottom: 0;\r\n+  bottom: 20px;\r\n }\r\n \r\n .cookies span {\r\n   font-size: 8px;\r\n"
+                },
+                {
+                    "date": 1705954158112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\r\n \r\n footer {\r\n   position: absolute;\r\n-  bottom: 20px;\r\n+  bottom: 50px;\r\n }\r\n \r\n .cookies span {\r\n   font-size: 8px;\r\n"
+                },
+                {
+                    "date": 1705954171770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\r\n \r\n footer {\r\n   position: absolute;\r\n-  bottom: 50px;\r\n+  bottom: 70px;\r\n }\r\n \r\n .cookies span {\r\n   font-size: 8px;\r\n"
+                },
+                {
+                    "date": 1705954251203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,6 +137,6 @@\n   cursor: pointer;\r\n   color: #fff;\r\n   background-color: #121212;\r\n   font-weight: 600;\r\n-  font-size: 12px;\r\n+  font-size: 16px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1705954268700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,13 +124,8 @@\n   position: absolute;\r\n   bottom: 70px;\r\n }\r\n \r\n-.cookies span {\r\n-  font-size: 8px;\r\n-  padding: 20px 0;\r\n-}\r\n-\r\n .cookies button {\r\n   border-radius: 15px;\r\n   border: 0.1px solid #fff;\r\n   padding: 5px 15px;\r\n"
+                },
+                {
+                    "date": 1705954312939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,12 @@\n   position: absolute;\r\n   bottom: 70px;\r\n }\r\n \r\n+.cookies span {\r\n+  padding: 10px;\r\n+}\r\n+\r\n .cookies button {\r\n   border-radius: 15px;\r\n   border: 0.1px solid #fff;\r\n   padding: 5px 15px;\r\n"
+                },
+                {
+                    "date": 1705954388612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   position: absolute;\r\n   bottom: 70px;\r\n }\r\n \r\n-.cookies span {\r\n+.cookies h3 {\r\n   padding: 10px;\r\n }\r\n \r\n .cookies button {\r\n"
+                }
+            ],
+            "date": 1705950724515,
+            "name": "Commit-0",
+            "content": "body {\r\n  background: #000;\r\n}\r\n\r\n.sidebar {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  bottom: 0;\r\n  padding: 12px;\r\n  width: 300px;\r\n}\r\n\r\n.sidebar_navigation, .biblioteca {\r\n  background-color: #121212;\r\n  border-radius: 8px;\r\n  padding: 16px 0 0 16px;\r\n  color: #b3b3b3;\r\n  font-family: \"DM Sans\", sans-serif;\r\n}\r\n\r\n.sidebar_navigation .logo {\r\n  background: #121212;\r\n  display: flex;\r\n  border-radius: 8px;\r\n  padding: 16px 0 0 16px;\r\n}\r\n\r\n.sidebar_navigation .logo img {\r\n  width: 80px;\r\n}\r\n\r\n.sidebar nav ul {\r\n  margin-top: 20px;\r\n  padding: 0 20px 10px 20px;\r\n}\r\n\r\n.sidebar ul li {\r\n  padding: 10px 0;\r\n}\r\n\r\n.sidebar nav ul li a {\r\n  color: #b3b3b3;\r\n  text-decoration: none;\r\n  font-weight: 600;\r\n  font-size: 14px;\r\n  font-family: \"DM Sans\", sans-serif;\r\n}\r\n\r\n.sidebar .library {\r\n  margin: 5px 0;\r\n  font-weight: 600;\r\n  font-size: 14px;\r\n}\r\n\r\n.sidebar .biblioteca {\r\n  padding-bottom: 10px;\r\n}\r\n\r\n.sidebar .biblioteca h2 {\r\n  margin: 10px 0;\r\n  padding-left: 16px;\r\n}\r\n\r\n.playlist {\r\n  margin: 10px 10px 0 0;\r\n  background-color: #242424;\r\n  padding: 16px 0 16px 16px;\r\n  border-radius: 8px;\r\n  color: #fff;\r\n}\r\n\r\n.playlist h3 {\r\n  padding-bottom: 10px;\r\n  font-size: 12px;\r\n}\r\n\r\n.playlist span {\r\n  font-size: 10px;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.playlist span, .cookies span {\r\n  display: block;\r\n}\r\n\r\n.playlist button {\r\n  border-radius: 15px;\r\n  border: 0;\r\n  padding: 4px 8px;\r\n  cursor: pointer;\r\n  color: #121212;\r\n  font-weight: 600;\r\n  font-size: 12px;\r\n}\r\n\r\n.podcast {\r\n  margin: 10px 10px 0 0;\r\n  background-color: #242424;\r\n  padding: 16px 0 16px 16px;\r\n  border-radius: 8px;\r\n  color: #fff;\r\n}\r\n\r\n\r\n.podcast button {\r\n  border-radius: 15px;\r\n  border: 0;\r\n  padding: 4px 8px;\r\n  cursor: pointer;\r\n  color: #121212;\r\n  font-weight: 600;\r\n  font-size: 12px;\r\n}\r\n\r\n.cookies span {\r\n  font-size: 8px;\r\n  padding: 20px 0;\r\n}\r\n\r\n.cookies button {\r\n  border-radius: 15px;\r\n  border: 0.1px solid #fff;\r\n  padding: 5px 15px;\r\n  cursor: pointer;\r\n  color: #fff;\r\n  background-color: #121212;\r\n  font-weight: 600;\r\n  font-size: 12px;\r\n}"
+        }
+    ]
+}
