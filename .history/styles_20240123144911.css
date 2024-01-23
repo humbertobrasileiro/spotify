@@ -45,7 +45,6 @@ body {
   font-weight: 600;
   font-size: 14px;
   font-family: "DM Sans", sans-serif;
-  min-height: 100%;
 }
 
 .library {
@@ -60,7 +59,6 @@ body {
   font-size: 14px;
   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;
   margin-top: 10px;
-  min-height: 75%;
 }
 
 .library .library__content {
@@ -184,44 +182,16 @@ body {
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   position: absolute;
-  margin: 12px 8px 8px 12px;
-  bottom: 0px;
+  bottom: 30px;
   background: rgb(174, 41, 151);
   background: linear-gradient(90deg, rgba(174, 41, 151, 1) 30%, rgba(80, 154, 244, 1) 87%);
-  width: 99%;
-  height: 66px;
-}
-
-.footer-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  color: #fff;
+  width: 100%;
 }
 
 footer .text {
   font-weight: 700;
-  color: #fff;
-  padding: 8px;
-}
-
-footer .footer-button {
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  padding: 8px;
-  line-height: 1.15;
-  border-radius: 20px;
-  color: #b3b3b3;
-}
-
-.footer-button .button__text {
-  font-weight: 700;
-  color: #000;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
+  padding: 10px 8px;
 }

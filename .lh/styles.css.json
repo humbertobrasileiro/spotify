@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 38,
+            "activePatchIndex": 40,
             "patches": [
                 {
                     "date": 1705950724515,
@@ -160,6 +160,14 @@
                 {
                     "date": 1705954388612,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   position: absolute;\r\n   bottom: 70px;\r\n }\r\n \r\n-.cookies span {\r\n+.cookies h3 {\r\n   padding: 10px;\r\n }\r\n \r\n .cookies button {\r\n"
+                },
+                {
+                    "date": 1706012409667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   width: 420px;\r\n   min-height: 100%;\r\n }\r\n \r\n-.sidebar_navigation {\r\n+.sidebar__navigation {\r\n   background-color: #121212;\r\n   border-radius: 8px;\r\n   padding: 16px 0 0 16px;\r\n   color: #b3b3b3;\r\n@@ -28,16 +28,16 @@\n   color: #b3b3b3;\r\n   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;\r\n }\r\n \r\n-.sidebar_navigation .logo {\r\n+.sidebar__navigation .logo {\r\n   background: #121212;\r\n   display: flex;\r\n   border-radius: 8px;\r\n   padding: 16px 0 0 16px;\r\n }\r\n \r\n-.sidebar_navigation .logo img {\r\n+.sidebar__navigation .logo img {\r\n   width: 80px;\r\n }\r\n \r\n .sidebar nav ul {\r\n"
+                },
+                {
+                    "date": 1706013324438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,17 +19,8 @@\n   color: #b3b3b3;\r\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n-.library {\r\n-  min-height: 100%;\r\n-  background-color: #121212;\r\n-  border-radius: 8px;\r\n-  padding: 16px 0 0 16px;\r\n-  color: #b3b3b3;\r\n-  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;\r\n-}\r\n-\r\n .sidebar__navigation .logo {\r\n   background: #121212;\r\n   display: flex;\r\n   border-radius: 8px;\r\n@@ -56,9 +47,19 @@\n   font-size: 14px;\r\n   font-family: \"DM Sans\", sans-serif;\r\n }\r\n \r\n+\r\n .library {\r\n+  background-color: #121212;\r\n+  border-radius: 8px;\r\n+  display: flex;\r\n+  justify-content: space-between;\r\n+  \r\n+  min-height: 100%;\r\n+  padding: 16px 0 0 16px;\r\n+  color: #b3b3b3;\r\n+  font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;\r\n   margin-top: 10px;\r\n   font-weight: 600;\r\n   font-size: 14px;\r\n   padding-bottom: 10px;\r\n"
                 }
             ],
             "date": 1705950724515,
